@@ -14,9 +14,9 @@ public class NonRepeatedWord {
 		String[] words = str.split(" ");
 
 		Map<String, Integer> map = new LinkedHashMap<String, Integer>();
-		//LinkedHashMap keep order as it inserted.
+		// LinkedHashMap keep order as it inserted.
 
-		 // Count frequency
+		// Count frequency
 		for (int i = 0; i < words.length; i++) {
 			String word = words[i];
 			if (map.containsKey(word)) {
@@ -45,7 +45,6 @@ public class NonRepeatedWord {
 	}
 
 }
-
 
 //Find the first non-repeated word in a sentence
 //
